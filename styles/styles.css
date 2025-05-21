@@ -1,0 +1,283 @@
+body {
+   padding:42px 138px;
+	background-color:#f1f1f1;
+}
+
+header {
+    position: fixed;
+    top: 21px;
+
+    width: auto;
+    /*background-color: white; */
+    z-index: 1000; /*win ayenebs*/
+    padding: 15px; 
+}
+
+
+a{
+   font-weight:700;
+   font-size:11px;
+   width:32px;
+   height:13px;
+   color:black;
+   font-family:"Roboto", sans-serif;
+}
+
+nav {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.logo{
+   width:32px;
+   height:32px;
+   vertical-align:top;
+   margin-top:-10px;
+}
+
+li{
+   display:inline-block;
+   margin-right:35px;
+   margin-bottom:42px;
+}
+
+h1{
+   margin-top:42px;
+   font-weight:700;
+   font-size:24px;
+   width:120px;
+   height:28px;
+   font-family:"Roboto", sans-serif;
+   margin-bottom:27px;
+}
+
+.container{
+  display:flex;
+}
+
+.img-container {
+   border: 1px solid black transparent;
+   display: inline-block;
+   position: relative;
+   align-items: center;
+   margin-right:40px;
+   margin-bottom:28.5px;
+}
+
+.text {
+   position:absolute;
+   top: 37px;
+   left: 41px;
+   color: white;
+   width:184px;
+   height:23px;
+   font-weight:700;
+   font-size:20px;
+   font-family:"Roboto", sans-serif;
+   white-space: nowrap; /*ert xazze wers*/
+}
+
+.border{
+   position: relative;
+   width: 362px;
+   height: 171px;
+   background-color: white;
+   margin-top: -3px;
+}
+
+
+
+.txt {
+   position: absolute;
+   bottom: 68px;
+   left: 37px;
+   width: 238px;
+   height: 36px;
+   color: #8A8787;
+   font-weight: 700;
+   font-size: 10px;
+   font-family: "Roboto", sans-serif;
+   display: inline-block;
+   text-align: center;
+}
+
+.txt-gap {
+    margin-bottom:-25px; 
+}
+
+.textovan{
+   position:absolute;
+   bottom:37px;
+   left: 67px;
+   width:34px;
+   height:12px;
+   color:#8A8787;
+   font-weight:700;
+   font-size:10px;
+   font-family:"Roboto", sans-serif;
+   display: inline-block;
+   text-align:center;
+}
+
+.idk{
+   position:absolute;
+   bottom:36px;
+   left: 40px;
+   height:16px;
+   width:16px;
+   display: inline-block;
+}
+
+.H1{
+   font-weight:800;
+   font-size:24px;
+   width:196px;
+   height:28px;
+   font-family:"Roboto", sans-serif;
+   margin-bottom:30px;
+   display:inline-block;
+
+}
+
+.container-1 {
+    margin-right: 45px;
+}
+
+.buneba-dedabuneba-container {
+    display: flex;
+}
+
+.buneba-ragac {
+    display: block;
+    margin-right:45px;
+}
+
+.buneba {
+    position: relative;
+    width: 758px;
+    height: 430px;
+    display: block;
+    margin-bottom:42px;
+}
+
+.tuxt {
+    position: absolute;
+    top: 203px;
+    left: 278px;
+    width: 202px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.dedabuneba {
+    display: block;
+    width: 362px;
+    height: 212px;
+}
+
+.dedabuneba img {
+    display: block;
+    margin-bottom: 98px;
+}
+.border-nav {
+    position: relative;
+    background-color: #243043;
+    width: 1440px;
+    height: 201px;
+    padding: 20px;
+}
+
+.nav-container {
+    position: absolute;
+    left:137px; 
+    top: 59px; 
+}
+
+.nav-group {
+    display: inline-block; 
+    margin-right: 50px; 
+}
+
+h3 {
+    color: #818687;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    height:14px;
+    margin-bottom:14px; 
+}
+
+.h3-home{
+   width:33px;
+}
+
+.h3-Discovery{
+   width:54px;
+}
+
+.h3-Photos{
+   width:39px;
+}
+
+.h3-Contact{
+   width:43px;
+}
+
+.h3-help{
+   width:25px;
+}
+
+.h3-Terms{
+   width:35px;
+}
+
+.h3-Guidelines{
+   width:51px;
+}
+
+.h3-Testimonials{
+   width:70px;
+}
+
+
+.h3-Advertise{
+   width:52px;
+}
+
+.h3-Integrations{
+   width:66px;
+}
+
+.h2-container {
+   position:absolute;
+   top:29,5px;
+   left:599px;
+   display: inline-block; 
+   margin-left: 50px;
+}
+
+h2 {
+   color: white;
+   font-family: "Roboto", sans-serif;
+   font-weight:400;
+   font-size: 12px;
+   height: 14px;
+   width: 249px;
+   display: inline-block;
+}
+
+.footer-container{
+   position:absolute;
+   left:1264px;
+   top:58px;
+   display:inline-block;
+}
+
+.footer{
+   height:40px;
+   width:38px; 
+}
